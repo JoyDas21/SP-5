@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Padding</title>
+    <style>
+        div.ex1{
+            width: 300px;
+            background-color: aqua;
+            text-align: center;
+        }
+        
+        div.ex2{
+            width: 300px;
+            padding: 20px;
+            box-sizing: border-box;
+            background-color: yellow;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h2>Using individual padding properties.</h2>
+    <div class="ex1">
+        This div element has a top padding of 50px, bottom padding of 60px, left and right paddings are 40px and 60px.
+    </div>
+    <br><br>
+    <div class="ex2">
+        The widthof this div remains at 300px, in spite of the 50px of total lefe and right padding, because of the box-sizing: border-box property.
+    </div>
+</body>
+</html>
