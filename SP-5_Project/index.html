@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Buy and Sell</title>
+    <style>
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppings', sans-serif;
+}
+.header{
+    min-height: 80vh;
+    background-image: url(image/sergey-zolkin-_UeY8aTI6d0-unsplash.jpg);
+    background-color: cover;
+    background-position: center;
+    background-size: 100% 100%;
+    
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 5%;
+}
+.logo{
+    width: 150px;
+    cursor: pointer;
+}
+.link li{
+    font-family: "Montserrat", sans-serif;
+    font-size: 19px;
+    list-style: none;
+    display: inline-block;
+    margin: 10px 30px;
+}
+.link li a{
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    color: #fff;
+}
+.link li a{
+    transition: all 0.3s ease 0s;
+}
+
+.link li a:hover{
+    color: #0088a9;
+}
+
+.reg-bttn{
+    font-family: "Montserrat", sans-serif;
+    background-color: #fff;
+    color: black;
+    padding: 8px 20px;
+    text-decoration: none; 
+    font-size: 15px;
+    transition: all 0.3s ease 0s;
+}
+.reg-bttn:hover{
+    background-color: #0088a9;
+}
+.container{
+    padding: 0.2%;
+}
+.header h1{
+    font-size: 4vw;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    text-align: center;
+    padding-top: 5%;
+}
+.header p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    margin-top: 2%;
+}
+.suntitle{
+    margin: 50px 0px;
+    font-size: 2.2vw;
+    font-weight: 500;
+    color: darkgray;
+}
+.search-bar{
+    background: #fff;
+    width: 570px;
+    margin: 30px auto;
+    margin-top: 50px;
+    padding: 6px 30px 6px 30px;  
+    text-align: center;
+}
+.search-bar form{
+
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 60px;
+}
+.search-bar form input{
+    display: block;
+    border: 1px solid;
+    border-color: rgb(128, 128, 128);
+    outline: none;
+    background: transparent;
+    min-width: 200px;
+    height: 40px;
+    padding: 10px;
+
+}
+.search-bar form button{
+    background: rgb(67, 131, 228);
+    width: 75px;
+    height:40px;
+    cursor: pointer;
+    color: #fff;
+    transition: all 0.3s ease 0s;
+    margin-left: 20px;
+}
+.search-bar form button:hover{
+    background-color: #0088a9;
+}
+.location-input{
+    flex: 1;
+}
+.search-bar form label{
+    font-weight: 500;
+}
+.subtitle{
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+}
+.para{
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 200;
+}
+.footer{
+
+    margin: 15px 0 10px;
+    text-align: center;
+    font-size: 10px;
+}
+.footer hr{
+    background-color: #999;
+    height: 1px;
+    width: 100%;
+    border: 0;
+    margin: 20px 0;
+}
+.footer p{
+    padding-bottom: 10px;
+    color: #333;
+}
+    </style>
+</head>
+<body>
+    <div class="header">
+        <nav>
+            <img src="image/—Pngtree—red and black logo_5517319.png" class="logo">
+            <ul class="link">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Categories</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+            <a href="#" class="reg-bttn">Login</a>
+        </nav>
+        <div class="container">
+            <h1>Buy & Sell</h1> 
+            <p>Buy and sell everything from second-hand cars to mobile phones, or even find a new home.<br> 
+                Find a great deal close to you, or search all of Bangladesh..</p>
+            <div class="search-bar">
+                <form>
+                    <div class="location-input">
+                       
+                        <input type="text" placeholder="What are you looking for?">
+                    </div>
+                    <div>
+                        <input type="text" placeholder="Location">
+                    </div>
+                    <button type="submit">Search</button>
+                </form>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <h2 class="subtitle">Trending</h2>
+        <p class="para">Nothing to show right now!</p>
+    </div>
+    <div class="footer">
+        <img src="image/facebook-app-symbol.png" height="20px" width="20px">
+        <img src="image/instagram.png" height="20px" width="20px">
+        <img src="image/twitter.png" height="20px" width="20px">
+        <img src="image/github.png" height="20px" width="20px">
+        <hr>
+        <p>Copyright © 2022, Buy & Sell</p>
+    </div>
+</body>
+</html>
